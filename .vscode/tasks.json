@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "type": "shell",
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+    },
+    "isBackground": true,
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "C:\\Program Files\\Java\\jdk-16.0.2\\bin\\javac.exe",
+            "args": ["-Xlint:none", "-cp", "${workspaceFolder}", "-encoding", "utf8", "${file}"]
+        },
+        {
+            "label": "debug",
+            "dependsOn": "build",
+            "type": "shell",
+            "command": "C:\\Program Files\\Java\\jdk-16.0.2\\bin\\java.exe",
+            "args": ["-cp", "'${workspaceFolder}\\;${fileDirname}'", "${fileBasenameNoExtension}"]
+        }
+    ]
+}

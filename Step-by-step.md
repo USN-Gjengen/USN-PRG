@@ -7,6 +7,7 @@ To use Java in Visual Studio Code, it is highly recommended to install the follo
 
 If you wish to add the text alignment extension that we have used in Sublime before, you can get that here: [Alignment](https://marketplace.visualstudio.com/items?itemName=annsk.alignment)
 
+
 ### **Adding EasyGraphics.jar**
 To let Visual Studio Code understand that we have EasyGraphics, we need to add a reference to [EasyGraphics.jar](https://dbsys.info/programmering/easygraphics/nedlasting.html). The file is included in this repository, but feel free to download it yourself if you want it directly from the source.
 
@@ -19,6 +20,7 @@ To let Visual Studio Code understand that we have EasyGraphics, we need to add a
     "easygraphics.jar"
 ]
 ```
+
 
 ### **Modifying keybinds**
 For quickly and easily compiling and running code, we will replace a couple of keyboard shortcuts with our own.
@@ -57,8 +59,19 @@ For quickly and easily compiling and running code, we will replace a couple of k
 
 If you want to see the scripts that will be run by the new keybinds, please check out the [tasks.json](.vscode/tasks.json) file.
 
+
+### **Opening workspace**
+After everything is set up:
+1. Go to "File -> Open Workspace...".
+1. In *your* file explorer, navigate to the .vscode folder downloaded from this page.
+1. Open the file "`workspace.code-workspace`" (The extension might be hidden).
+
+You should now have a file explorer on the left side of Visual Studio Code, that hides .class files among others.
+
+
 ## Linux:
 No guide yet. If you manage to set it up correctly, please report back so we can fill this.
+
 
 ## Mac:
 No guide yet. If you manage to set it up correctly, please report back so we can fill this.

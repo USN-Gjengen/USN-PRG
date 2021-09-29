@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"files.exclude": {
+			"**/.vscode": true,
 			"**/.git": true,
 			"**/.gitignore": true,
 			"**/.class": true,

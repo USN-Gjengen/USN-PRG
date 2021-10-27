@@ -20,7 +20,10 @@
             "dependsOn": "build",
             "type": "shell",
             "command": "C:\\Program Files\\Java\\jdk-16.0.2\\bin\\java.exe",
-            "args": ["-cp", "'${workspaceFolder}\\;${fileDirname}'", "${fileBasenameNoExtension}"]
+            "args": ["-cp", "'${workspaceFolder}\\;${fileDirname}'", "${fileBasenameNoExtension}"],
+            "options": {
+                "cwd": "${fileDirname}"
+            }
         }
     ]
 }

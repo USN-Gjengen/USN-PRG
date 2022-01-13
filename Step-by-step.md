@@ -7,8 +7,9 @@ Alternatively, download this repository onto your computer, but please try to us
 ## Windows:
 ### Download libraries
 You will need to download the following libraries and place them in the root folder of this repository:
-EasyGraphics, tegning via Java: [link](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar)
-JavaFX, grafisk grensesnitt med Java: [link](https://gluonhq.com/products/javafx/)
+- EasyGraphics.java, for compilation: [link](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java) (Right click and "save as.." to download)
+- EasyGraphics.jar, for syntax: [link](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar)
+- JavaFX: [link](https://gluonhq.com/products/javafx/)
 
 ### **Extensions**
 To use Java in Visual Studio Code, it is highly recommended to install the following extension pack (endorsed by Microsoft)

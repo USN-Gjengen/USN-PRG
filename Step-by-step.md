@@ -1,6 +1,15 @@
 # Step-by-step Guide
+## Fork it!
+Fork this repository onto your own GitHub user. If you do this, you can receive updates to script and settings files if there are any.
+
+Alternatively, download this repository onto your computer, but please try to use a form of version control, as it will help you manage the code.
 
 ## Windows:
+### Download libraries
+You will need to download the following libraries and place them in the root folder of this repository:
+EasyGraphics, tegning via Java: [link](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar)
+JavaFX, grafisk grensesnitt med Java: [link](https://gluonhq.com/products/javafx/)
+
 ### **Extensions**
 To use Java in Visual Studio Code, it is highly recommended to install the following extension pack (endorsed by Microsoft)
 : [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)

@@ -1,5 +1,5 @@
 # Step-by-step Guide
-## Fork it!
+### Fork it!
 Fork this repository onto your own GitHub user. If you do this, you can receive updates to script and settings files if there are any.
 
 Alternatively, download this repository onto your computer, but please try to use a form of version control, as it will help you manage the code.
@@ -9,7 +9,7 @@ Alternatively, download this repository onto your computer, but please try to us
 You will need to download the following libraries and place them in the root folder of this repository:
 - [EasyGraphics.java](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java), for compilation. (Right click and "save link as.." to download)
 - [EasyGraphics.jar](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar), for syntax.
-- [JavaFX](https://gluonhq.com/products/javafx/), download the "SDK" and extract so you have the "javafx-sdk-17.x.x" folder placed into the root of this repository.
+- [JavaFX](https://download2.gluonhq.com/openjfx/17.0.1/openjfx-17.0.1_windows-x64_bin-sdk.zip), extract so you have the "javafx-sdk-17.0.1" folder placed into the root of this repository.
 
 ### **Extensions**
 To use Java in Visual Studio Code, it is highly recommended to install the following extension pack (endorsed by Microsoft)
@@ -18,8 +18,8 @@ To use Java in Visual Studio Code, it is highly recommended to install the follo
 If you wish to add the text alignment extension that we have used in Sublime before, you can get that here: [Alignment](https://marketplace.visualstudio.com/items?itemName=annsk.alignment)
 
 
-### **Adding EasyGraphics.jar**
-To let Visual Studio Code understand that we have EasyGraphics, we need to add a reference to [easygraphics.jar](https://dbsys.info/programmering/easygraphics/nedlasting.html). The file is included in this repository, but feel free to download it yourself if you want it directly from the source.
+### **Adding libraries**
+To let Visual Studio Code understand what libraries we have, we need to add a reference to them.
 
 1. Open Visual Studio Code, and press "`CTRL + ,`" (control comma). This will open the settings page.
 1. Press the "Open Settings (JSON)" icon in the top right ![image](https://user-images.githubusercontent.com/26272249/135271284-cf0a5c26-1c04-4c2a-9e43-f02a081be00c.png)
@@ -27,7 +27,8 @@ To let Visual Studio Code understand that we have EasyGraphics, we need to add a
 1. Add the following to the list of settings, and don't forget to put a comma after the previous setting.
 ```json
 "java.project.referencedLibraries": [
-    "easygraphics.jar"
+    "easygraphics.jar",
+    "javafx-sdk-17.0.1/lib/*"
 ]
 ```
 

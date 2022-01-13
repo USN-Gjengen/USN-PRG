@@ -7,9 +7,9 @@ Alternatively, download this repository onto your computer, but please try to us
 ## Windows:
 ### Download libraries
 You will need to download the following libraries and place them in the root folder of this repository:
-- EasyGraphics.java, for compilation: [link](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java) (Right click and "save link as.." to download)
-- EasyGraphics.jar, for syntax: [link](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar)
-- JavaFX: [link](https://gluonhq.com/products/javafx/)
+- [EasyGraphics.java](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java), for compilation. (Right click and "save link as.." to download)
+- [EasyGraphics.jar](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar), for syntax.
+- [JavaFX](https://gluonhq.com/products/javafx/), download the "SDK" and extract so you have the "javafx-sdk-17.x.x" folder placed into the root of this repository.
 
 ### **Extensions**
 To use Java in Visual Studio Code, it is highly recommended to install the following extension pack (endorsed by Microsoft)
@@ -19,7 +19,7 @@ If you wish to add the text alignment extension that we have used in Sublime bef
 
 
 ### **Adding EasyGraphics.jar**
-To let Visual Studio Code understand that we have EasyGraphics, we need to add a reference to [EasyGraphics.jar](https://dbsys.info/programmering/easygraphics/nedlasting.html). The file is included in this repository, but feel free to download it yourself if you want it directly from the source.
+To let Visual Studio Code understand that we have EasyGraphics, we need to add a reference to [easygraphics.jar](https://dbsys.info/programmering/easygraphics/nedlasting.html). The file is included in this repository, but feel free to download it yourself if you want it directly from the source.
 
 1. Open Visual Studio Code, and press "`CTRL + ,`" (control comma). This will open the settings page.
 1. Press the "Open Settings (JSON)" icon in the top right ![image](https://user-images.githubusercontent.com/26272249/135271284-cf0a5c26-1c04-4c2a-9e43-f02a081be00c.png)

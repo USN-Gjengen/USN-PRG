@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"files.exclude": {
+			"**/*.md": true,
 			"**/.vscode": true,
 			"**/.git": true,
 			"**/.gitignore": true,

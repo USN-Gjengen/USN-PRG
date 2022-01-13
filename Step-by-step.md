@@ -12,10 +12,8 @@ You will need to download the following libraries and place them in the root fol
 - [JavaFX](https://download2.gluonhq.com/openjfx/17.0.1/openjfx-17.0.1_windows-x64_bin-sdk.zip), extract so you have the "javafx-sdk-17.0.1" folder placed into the root of this repository.
 
 ### **Extensions**
-To use Java in Visual Studio Code, it is highly recommended to install the following extension pack (endorsed by Microsoft)
-: [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-
-If you wish to add the text alignment extension that we have used in Sublime before, you can get that here: [Alignment](https://marketplace.visualstudio.com/items?itemName=annsk.alignment)
+- [VSCode Java Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+- [Alignment](https://marketplace.visualstudio.com/items?itemName=annsk.alignment) (optional), if you wish to add the text alignment extension that the teacher recommends.
 
 
 ### **Adding libraries**

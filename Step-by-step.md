@@ -7,7 +7,7 @@ Alternatively, download this repository onto your computer, but please try to us
 ## Windows:
 ### Download libraries
 You will need to download the following libraries and place them in the root folder of this repository:
-- EasyGraphics.java, for compilation: [link](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java) (Right click and "save as.." to download)
+- EasyGraphics.java, for compilation: [link](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java) (Right click and "save link as.." to download)
 - EasyGraphics.jar, for syntax: [link](https://dbsys.info/programmering/easygraphics/download/easygraphics.jar)
 - JavaFX: [link](https://gluonhq.com/products/javafx/)
 

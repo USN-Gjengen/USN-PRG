@@ -15,7 +15,7 @@
             "command": "C:\\Program Files\\Java\\jdk-16.0.2\\bin\\javac.exe",
             "args": [
                 "-Xlint:none", 
-                "-cp", "${workspaceFolder}", 
+                "-cp", "'${workspaceFolder};${workspaceFolder}\\;${fileDirname}'", 
                 "--module-path", "${workspaceFolder}\\javafx-sdk-17.0.1\\lib", 
                 "--add-modules=javafx.controls", 
                 "-encoding", "utf8", 

@@ -19,6 +19,7 @@
 			"**/.DS_Store": true,
 			"**/Thumbs.db": true,
 			"javafx-sdk*/": true
-		}
+		},
+		"java.project.sourcePaths": [ ]
 	}
 }

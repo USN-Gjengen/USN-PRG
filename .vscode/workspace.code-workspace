@@ -16,6 +16,7 @@
 			"**/*.def": true,
 			"**/*.dll": true,
 			"**/*.zip": true,
+			"**/*.exe": true,
 			"**/.svn": true,
 			"**/.hg": true,
 			"**/CVS": true,

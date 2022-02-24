@@ -38,7 +38,7 @@
             },
             "command": "java.exe",
             "args": [
-                "-cp", "'${workspaceFolder}\\;${fileDirname}'", 
+                "-cp", "'${workspaceFolder}\\;${fileDirname};${workspaceFolder}\\sqlite-jdbc-3.36.0.3.jar'", 
                 "--module-path", "'${workspaceFolder}\\javafx-sdk-17.0.1\\lib'", 
                 "--add-modules=javafx.controls", 
                 "'${fileBasenameNoExtension}'"]

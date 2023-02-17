@@ -4,6 +4,9 @@ Fork this repository onto your own GitHub user. If you do this, you can receive 
 
 Alternatively, download this repository onto your computer, but please try to use a form of version control, as it will help you manage the code.
 
+## Install Java
+Check which version of Java JDK you need, and install it.
+
 ## Download libraries
 You will need to download the following libraries and place them in the root folder of this repository:
 - [EasyGraphics.java](https://dbsys.info/programmering/easygraphics/download/EasyGraphics.java), for compilation. (Right click and "save link as.." to download)

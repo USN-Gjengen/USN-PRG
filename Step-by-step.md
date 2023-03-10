@@ -79,6 +79,8 @@ For quickly and easily compiling and running code, we will replace a couple of k
 
 If you want to see the scripts that will be run by the new keybinds, please check out the [tasks.json](.vscode/tasks.json) file.
 
+## Configuring Java path
+When this repo was made, we were told to install Java JDK version 16.0.2. If you have installed a different version, the open the [tasks.json](.vscode/tasks.json) file and modify `"PATH": "C:\\Program Files\\Java\\jdk-16.0.2\\bin\\"` to have the correct path.
 
 ## **Opening workspace**
 After everything is set up:
